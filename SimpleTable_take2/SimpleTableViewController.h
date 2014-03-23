@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SimpleTableViewController.h
 //  SimpleTable_take2
 //
 //  Created by andre on 18/03/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SimpleTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
